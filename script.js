@@ -32,6 +32,7 @@ document.getElementById('out').innerHTML=result
 
 
 const mul=()=>{
+   
      a=document.getElementById('n1').value
      a=parseInt(a)
 
@@ -46,6 +47,7 @@ document.getElementById('out').innerHTML=result
 
 
 const div=()=>{
+   
      a=document.getElementById('n1').value
      a=parseInt(a)
 
