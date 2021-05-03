@@ -59,3 +59,40 @@ const div=()=>{
 document.getElementById('out').innerHTML=result 
 
 }
+
+const pow=()=>{
+        a=document.getElementById('n1').value
+        a=parseFloat(a)
+
+        b=document.getElementById('n2').value
+        b=parseFloat(b)
+
+        result=Math.pow(a,b)
+
+document.getElementById('out').innerHTML=result
+
+}
+
+const square=()=>{
+        a=document.getElementById('n1').value
+        a=parseFloat(a)
+
+        b=document.getElementById('n2').value
+        b=parseFloat(b)
+
+        result=Math.pow(a,2)
+
+document.getElementById('out').innerHTML=result
+}
+
+const cube=()=>{
+        a=document.getElementById('n1').value
+        a=parseFloat(a)
+
+        b=document.getElementById('n2').value
+        b=parseFloat(b)
+
+        result=Math.pow(a,3)
+
+document.getElementById('out').innerHTML=result
+}
